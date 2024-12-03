@@ -171,7 +171,7 @@ with st.sidebar:
     service = st.selectbox('Service Type', fin_type_tuple)
     gender = st.selectbox('Gender', fin_gender_tuple)
     
-    term_value = st.slider('Term', 0, 120, 50)
+    term_value = st.slider('Term', 0, 90, 50)
     ltv_value = st.slider('LTV', 0.0, 1.0, 0.5)
     age_value = st.slider('Age', 17, 120, 50)
 
