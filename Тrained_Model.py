@@ -138,7 +138,7 @@ def ltv_funct(n):
 
 
 def age_funct(n):
-    if n => 17 and n <= 28.6:
+    if n >= 17 and n <= 28.6:
         age_value = 'age_at_issue_bin:17-28.6'
     if n > 28.6 and n <= 42.733:
         age_value = 'age_at_issue_bin:28.6-42.733'
