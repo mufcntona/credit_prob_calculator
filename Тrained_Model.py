@@ -163,7 +163,7 @@ fin_type_tuple = tuple(type_list)
 gender_list = gender_dict.values()
 fin_gender_tuple = tuple(gender_list)
 
-st.logo("C:\\Users\\Lenovo\\Desktop\\AMIGO-Logo.png")
+
 with st.sidebar:
     st.header('Input features')
     town = st.selectbox('Town', fin_town_tuple)
